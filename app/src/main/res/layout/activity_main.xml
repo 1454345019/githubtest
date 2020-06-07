@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom|center"
+
+    tools:context=".MainActivity">
+
+    <DatePicker
+        android:id="@+id/dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        >
+</DatePicker>
+    <CheckBox
+        android:id="@+id/habby1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="语文">
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/habby2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="数学">
+
+    </CheckBox>
+
+
+
+    <RadioGroup
+        android:id="@+id/rg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:background="#0000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男"
+            >
+
+        </RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女"
+            >
+
+        </RadioButton>
+    </RadioGroup>
+
+    <ImageButton
+        android:onClick="onclick1"
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:src="@mipmap/start"
+        android:background="#0000"
+
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="581dp" />
+
+    <ImageButton
+        android:onClick="onclick2"
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:src="@mipmap/top"
+        android:background="#0000"
+
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="581dp" />
+
+</LinearLayout>
